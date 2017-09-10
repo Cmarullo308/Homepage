@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset = "utf-8">
+	
+    <!--Background Time-->
+	<script type="text/javascript">
+	<!--
+		var currentTime = new Date();
+		var hours = currentTime.getHours() + 1;
+		var date = currentTime.getDate();
+		var month = currentTime.getMonth() + 1;
+		var sunrise;
+		var sunset;
+		
+		if (month == 1)
+		{
+			sunrise = 7;
+			sunset = 17;
+		}
+		else if (month == 2)
+		{
+			sunrise = 6;
+			sunset = 17;
+		}
+		else if (month == 3)
+		{
+			if (date > 14)
+			{
+				sunrise = 7;
+				sunset = 19;
+			}
+			else
+			{
+				sunrise = 6;
+				sunset = 18;
+			}
+		}
+		else if (month == 4)
+		{
+			sunrise = 6;
+			sunset = 19;
+		}
+		else if (month == 5)
+		{
+			sunrise = 6;
+			sunset = 21;
+		}
+		else if (month == 6)
+		{
+			sunrise = 5;
+			sunset = 21;
+		}
+		else if (month == 7)
+		{
+			sunrise = 6;
+			sunset = 20;
+		}
+		else if (month == 8)
+		{
+			sunrise = 6;
+			sunset = 20;
+		}
+		else if (month == 9)
+		{
+			sunrise = 6;
+			sunset = 19;
+		}
+		else if (month == 10)
+		{
+			sunrise = 7;
+			sunset = 18;
+		}
+		else if (month == 11)
+		{
+			if (date < 7)
+			{
+				sunrise = 7;
+				sunset = 18;
+			}
+			else
+			{
+				sunrise = 7;
+				sunset = 17;
+			}
+		}
+		else if (month == 12)
+		{
+			sunrise = 7;
+			sunset = 16;
+		}
+	
+		if ((hours >= 0 && hours <= sunrise) || (hours >= sunset && hours <= 24))
+			document.write('<link rel="stylesheet" type="text/css" href="CSS/Homepage-Night-CSS.css">');
+		else
+			document.write('<link rel="stylesheet" type="text/css" href="CSS/Homepage-Day-CSS.css">');
+	
+	
+	//-->
+	</script>
+	
+	<link rel="shortcut icon" href="images/icons/blocks.ico">
+	<title>Homepage</title>
+	
+</head>
+
+<body>
+<div class="center">
+
+<br />
+
+<!--Date and Time-->
+<script type="text/javascript">
+<!--
+	var currentTime = new Date()
+	var hours = currentTime.getHours()
+	var minutes = currentTime.getMinutes()
+	var seconds = currentTime.getSeconds()
+	var day = currentTime.getDay() + 1;
+	var date = currentTime.getDate()
+	var month = currentTime.getMonth() + 1;
+	var year = currentTime.getYear() + 1900;
+	var suffix = "AM";
+	var numend;
+
+	if (minutes < 10)
+	minutes = "0" + minutes;
+	
+	if (hours >= 12) 
+	{
+	suffix = "PM";
+	hours = hours - 12;
+	}
+	if (hours == 0) {
+	hours = 12;
+	}
+    if (seconds < 10) {
+	seconds = "0" + seconds;
+	}
+	
+	if (month == 1)
+		month = "January";
+	else if (month == 2)
+		month = "February";
+	else if (month == 3)
+		month = "March";
+	else if (month == 4)
+		month = "April";
+	else if (month == 5)
+		month = "May";
+	else if (month == 6)
+		month = "June";
+	else if (month == 7)
+		month = "July";
+	else if (month == 8)
+		month = "August";
+	else if (month == 9)
+		month = "September";
+	else if (month == 10)
+		month = "October";
+	else if (month == 11)
+		month = "November";
+	else if (month == 12)
+		month = "December";
+		
+	if (day == 1)
+		day = "Sunday";
+	else if (day == 2)
+		day = "Monday";
+	else if (day == 3)
+		day = "Tuesday";
+	else if (day == 4)
+		day = "Wednesday";
+	else if (day == 5)
+		day = "Thursday";
+	else if (day == 6)
+		day = "Friday";
+	else if (day == 7)
+		day = "Saturday";
+		
+	if ((date >= 4 && date <= 20) || (date >= 24 && date <= 30) )
+		numend = "th";
+	else if (date == 1 || date == 21 || date == 31)
+		numend = "st";
+	else if (date == 3 || date == 23)
+		numend = "rd";
+	else if (date == 2 || date == 22)
+		numend = "nd";
+		
+	document.write('<div class="date"> <b>' + hours + ":" + minutes + ":" + seconds + " " + suffix + "<br /> " + day + " " + month + " " + date + numend + " " + year + "</b> </div>")
+//-->
+</script>
+
+<span style="font-size:16px; color:black; "><script type="text/javascript" src="http://www.snaphost.com/tools/ip.aspx"></script> </span> 
+
+
+<br/>
+
+<table> <!--Google Pic/link and Search Bar-->
+	<tr>
+		<td>
+		<a href="http://www.google.com" title="Google"><img width="150" height="150" src="images/google.png" alt="Social"></a>
+		</td>
+		<td>
+		<a href="http://www.wikipedia.org" title="Wikipedia"><img width="150" height="150" src="images/wikipedia.png" alt="Social"></a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form method="get" action="http://www.google.com/search">
+			<input type="text"   name="q" size="50"
+			maxlength="255" value="" />
+			<br />
+			<input type="submit" value="Google Search" />
+			</form>
+		</td>
+		<td>
+			<form action="http://www.wikipedia.org/search-redirect.php" method="get">
+			<input type="text" name="search" size="50" />
+			<input type="hidden" name="language" value="en" />
+			<br />
+			<input type="submit" name="go" value=" Wiki Search " />
+			<input type="hidden" name="go" value="Go" />
+			</form>
+
+		</td>
+	</tr>
+</table>
+
+
+
+
+<br /><br /><br /><br /><br /><br />
+
+<div class="c">
+<table>
+	<tr>
+		<td>
+		<a href="pages/Stuff.html" title="Stuff"><img width="180" height="180" src="images/online_cube.png" alt="Stuff"></a>
+		</td>
+		<td>
+		<a href="pages/Shopping.html" title="Shopping"><img width="210" height="210" src="images/Shopping.png" alt="Shopping"></a>
+		</td>
+		<td>
+		<a href="pages/School%20Stuff.html" title="School Stuff"><img width="200" height="200" src="images/books.png" alt="Books"></a>
+		</td>
+		<td>
+		<a href="pages/Everything%20Else.html" title="Everything Else"><img width="190" height="190" src="images/Blocks.png" alt="Everything Else"></a>
+		</td>
+		
+	</tr>
+	<tr>	<div class="center">
+		<td>
+				<span>Stuff</span>
+		</td>
+		<td>
+				<span>Shopping</span>
+		</td>
+		<td>
+				<span>School Stuff</span>
+		</td>
+		<td>
+				<span>Everything Else</span>
+		</td>
+	</tr>	</div>
+		
+</table>
+
+<!-- Lightbulb -->
+<!--
+<br /><br /><br /><br /><br />
+<a href="pages/black.html"><img width="160" height="180" src="images/lightbulb.png" alt="Everything Else"></a> 
+-->
+
+</script>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

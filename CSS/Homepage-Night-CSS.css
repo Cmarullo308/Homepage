@@ -1,0 +1,28 @@
+/*HomePage CSS*/
+
+body {
+	background-image:url('../images/Stars.gif');
+}
+
+.center {
+	text-align:center;
+}
+
+.text{
+	color:blue;
+}
+
+.c{
+	color:#3C3C59;
+	font-weight:bold;
+}
+.date {
+	color:#3C3C59;
+	font-weight:bold;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+  

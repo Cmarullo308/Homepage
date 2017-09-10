@@ -1,0 +1,26 @@
+/*School Stuff Night CSS*/
+
+body {
+	background-image:url('../images/stars.gif');
+}
+.center {
+	text-align:center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Schooltext{
+    color:red;
+    font-size:35px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.AS{
+    color:green;
+    font-size:35px;
+    text-decoration:underline;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+a:visited{
+    color:green;
+}

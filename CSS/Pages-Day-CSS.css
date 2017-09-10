@@ -1,0 +1,73 @@
+/*Social CSS*/
+
+body {
+	background-image:url('../images/Clouds%201.png');
+}
+
+.center {
+	text-align:center
+}
+
+.webcentral {
+	color: #4A5E9D;
+	font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+.blackboard {
+	color:#0C2254;
+	font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+.CISC1600 {
+	color:#E24C2D;
+	font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.CISC1110 {
+	color: #00AEDB;
+	font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.CISC3110{
+    color:green;
+    font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.Cmarullo{
+    color:cyan;
+    font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Fall_2012{
+    color:red;
+    font-size:35px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.Spring_2013{
+    color:red;
+    font-size:35px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.Fall_2013{
+    color:red;
+    font-size:35px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.AS{
+    color:green;
+    font-size:35px;
+    text-decoration:underline;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.Weiss{
+    color: orange;
+    font-size:60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+	

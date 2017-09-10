@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+	<!--Search Engine-->
+
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/Pages-CSS.css">
+	<link rel="shortcut icon" href="../images/icons/search.ico">
+	<title>Search Engines</title>
+</head>
+
+<body>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br />
+
+<div class="center">
+	<a href="../homepage.html"><img width="150" height="150" src="../images/arrow.png" alt="Arrow"></a>
+	<a href="http://www.Google.com"><img width="150" height="150" src="../images/google.png" alt="Google"></a>
+	<a href="http://www.Yahoo.com"><img width="151" height="151" src="../images/Yahoo.png" alt="Yahoo"></a>
+	<a href="http://www.bing.com"><img width="160" height="160" src="../images/bing.png" alt="Bing"></a>
+</div>
+
+</body>
+
+</html>
