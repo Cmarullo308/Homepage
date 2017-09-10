@@ -108,18 +108,18 @@
 <body>
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br />
-
+<br /><br /><br /><br />
 <!--Websites-->
 <div class="center">
 	<a href="../homepage.html"><img width="150" height="150" src="../images/arrow.png" alt="arrow"></a>
 	<a href="http://www.facebook.com"><img width="150" height="150" src="../images/facebook.png" alt="facebook"></a>
 	<a href="http://www.tumblr.com"><img width="150" height="150" src="../images/tumblr.png" alt="tumblr"></a>
 	<a href="http://www.youtube.com"><img width="147" height="147" src="../images/youtube.png" alt="youtube"></a>
+	<a href="http://www.reddit.com"><img width="147" height="147" src="../images/Reddit.png" alt="reddit"></a>
 	<a href="http://www.twitter.com"><img width="150" height="150" src="../images/twitter.png" alt="twitter"></a>
 	<a href="http://www.xbox.com"><img width="150" height="150" src="../images/xbox.png" alt="twitter"></a>
-	<a href="http://www.instagram.com"><img width="150" height="150" src="../images/Instagram.png" alt="myspace"></a>
 	<br />
+	<a href="http://www.instagram.com"><img width="150" height="150" src="../images/Instagram.png" alt="myspace"></a>
 	<a href="http://www.Bloglines.com"><img width="150" height="150" src="../images/rss.png" alt="Google"></a>
 	<a href="http://www.myspace.com"><img width="150" height="150" src="../images/myspace.png" alt="myspace"></a>
 	
