@@ -16,6 +16,10 @@ body {
 	color:#3C3C59;
 	font-weight:bold;
 }
+.date {
+	color:black;
+	font-weight:bold;
+}
 
 table {
   margin-left: auto;

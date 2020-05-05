@@ -1,13 +1,12 @@
 /*HomePage CSS*/
 
 body {
-	background-image:url('../Images/Circle-blues.png');
+	background-image:url('../images/Stars.gif');
 }
 
 .center {
-	color: white;
 	text-align:center;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px #d5db12;
 }
 
 .text{
@@ -19,16 +18,16 @@ body {
 	font-weight:bold;
 }
 .date {
-	color: white;
+	color: black;
 	font-weight:bold;
 	font-size: 32px;
-	text-shadow: 2px 2px black;
+	text-shadow: 2px 2px #d5db12;
 }
 
 .ip {
 	font-size: 28px;
-	color:white;
-	text-shadow: 2px 2px black;
+	color:#c91c1c;
+	text-shadow: 2px 2px #d5db12;
 }
 
 table {

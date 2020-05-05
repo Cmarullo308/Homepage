@@ -1,11 +1,13 @@
 /*HomePage CSS*/
 
 body {
-	background-image:url('../images/Stars.gif');
+	background-image:url('../Images/Stars-Pixel.gif');
 }
 
 .center {
+	color: white;
 	text-align:center;
+	text-shadow: 1px 1px black;
 }
 
 .text{
@@ -13,12 +15,20 @@ body {
 }
 
 .c{
-	color:#3C3C59;
+	color:#e0da0e;
 	font-weight:bold;
 }
 .date {
-	color:#3C3C59;
+	color: white;
 	font-weight:bold;
+	font-size: 32px;
+	text-shadow: 2px 2px black;
+}
+
+.ip {
+	font-size: 28px;
+	color:white;
+	text-shadow: 2px 2px black;
 }
 
 table {

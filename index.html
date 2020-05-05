@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset = "utf-8">
-	
+
     <!--Background Time-->
 	<script type="text/javascript">
 	<!--
@@ -12,7 +12,7 @@
 		var month = currentTime.getMonth() + 1;
 		var sunrise;
 		var sunset;
-		
+
 		if (month == 1)
 		{
 			sunrise = 7;
@@ -89,19 +89,19 @@
 			sunrise = 7;
 			sunset = 16;
 		}
-	
+
 		if ((hours >= 0 && hours <= sunrise) || (hours >= sunset && hours <= 24))
 			document.write('<link rel="stylesheet" type="text/css" href="CSS/Homepage-Night-CSS.css">');
 		else
 			document.write('<link rel="stylesheet" type="text/css" href="CSS/Homepage-Day-CSS.css">');
-	
-	
+
+
 	//-->
 	</script>
-	
+
 	<link rel="shortcut icon" href="images/icons/blocks.ico">
 	<title>Homepage</title>
-	
+
 </head>
 
 <body>
@@ -125,8 +125,8 @@
 
 	if (minutes < 10)
 	minutes = "0" + minutes;
-	
-	if (hours >= 12) 
+
+	if (hours >= 12)
 	{
 	suffix = "PM";
 	hours = hours - 12;
@@ -137,47 +137,13 @@
     if (seconds < 10) {
 	seconds = "0" + seconds;
 	}
-	
-	if (month == 1)
-		month = "January";
-	else if (month == 2)
-		month = "February";
-	else if (month == 3)
-		month = "March";
-	else if (month == 4)
-		month = "April";
-	else if (month == 5)
-		month = "May";
-	else if (month == 6)
-		month = "June";
-	else if (month == 7)
-		month = "July";
-	else if (month == 8)
-		month = "August";
-	else if (month == 9)
-		month = "September";
-	else if (month == 10)
-		month = "October";
-	else if (month == 11)
-		month = "November";
-	else if (month == 12)
-		month = "December";
-		
-	if (day == 1)
-		day = "Sunday";
-	else if (day == 2)
-		day = "Monday";
-	else if (day == 3)
-		day = "Tuesday";
-	else if (day == 4)
-		day = "Wednesday";
-	else if (day == 5)
-		day = "Thursday";
-	else if (day == 6)
-		day = "Friday";
-	else if (day == 7)
-		day = "Saturday";
-		
+
+	let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	month = months[month - 1];
+
+	let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	day = days[day - 1];
+
 	if ((date >= 4 && date <= 20) || (date >= 24 && date <= 30) )
 		numend = "th";
 	else if (date == 1 || date == 21 || date == 31)
@@ -186,20 +152,39 @@
 		numend = "rd";
 	else if (date == 2 || date == 22)
 		numend = "nd";
-		
-	document.write('<div class="date"> <b>' + hours + ":" + minutes + ":" + seconds + " " + suffix + "<br /> " + day + " " + month + " " + date + numend + " " + year + "</b> </div>")
+	
+	document.write('<div class="date"> <b>' + hours + ":" + minutes + ":" + seconds + " " + suffix + "<br /> " + day + " " + month + " " + date + numend + " " + year +"</b><br> </div>")
 //-->
 </script>
 
-<br/>
+<!--------------------------------Get ip address---------------------------------------------------------->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+<span id="ip" class="ip"></span>
+
+<script type="text/javascript">
+	$.getJSON("http://jsonip.com?callback=?", function (response) {
+		$("#ip").text(response.ip);
+	});
+</script>
+<!-------------------------------------------------------------------------------------------------------->
+
+
+<!--//Old code for IP
+<span style="font-size:16px; color:yellow; ">
+	<script type="text/javascript" src="http://www.snaphost.com/tools/ip.aspx">
+	</script>
+</span>
+-->
+
+<br/><br/><br/>
 
 <table> <!--Google Pic/link and Search Bar-->
 	<tr>
 		<td>
-		<a href="http://www.google.com" title="Google"><img width="150" height="150" src="images/google.png" alt="Social"></a>
+		<a href="http://www.google.com" title="Google"><img width="150" height="150" src="Images/Google.png" alt="Social"></a>
 		</td>
 		<td>
-		<a href="http://www.wikipedia.org" title="Wikipedia"><img width="150" height="150" src="images/wikipedia.png" alt="Social"></a>
+		<a href="http://www.wikipedia.org" title="Wikipedia"><img width="150" height="150" src="Images/Wikipedia.png" alt="Social"></a>
 		</td>
 	</tr>
 	<tr>
@@ -233,20 +218,20 @@
 <table>
 	<tr>
 		<td>
-		<a href="pages/Stuff.html" title="Stuff"><img width="180" height="180" src="images/online_cube.png" alt="Stuff"></a>
+		<a href="Pages/Stuff.html" title="Stuff"><img width="180" height="180" src="Images/Online_cube.png" alt="Stuff"></a>
 		</td>
 		<td>
-		<a href="pages/Shopping.html" title="Shopping"><img width="210" height="210" src="images/Shopping.png" alt="Shopping"></a>
+		<a href="Pages/Shopping.html" title="Shopping"><img width="210" height="210" src="Images/Shopping.png" alt="Shopping"></a>
 		</td>
 		<td>
-		<a href="pages/School%20Stuff.html" title="School Stuff"><img width="200" height="200" src="images/books.png" alt="Books"></a>
+		<a href="Pages/School%20Stuff.html" title="School Stuff"><img width="200" height="200" src="Images/Books.png" alt="Books"></a>
 		</td>
 		<td>
-		<a href="pages/Everything%20Else.html" title="Everything Else"><img width="190" height="190" src="images/Blocks.png" alt="Everything Else"></a>
+		<a href="Pages/Everything%20Else.html" title="Everything Else"><img width="190" height="190" src="Images/Blocks.png" alt="Everything Else"></a>
 		</td>
-		
+
 	</tr>
-	<tr>	<div class="center">
+	<tr class="center">	
 		<td>
 				<span>Stuff</span>
 		</td>
@@ -260,13 +245,13 @@
 				<span>Everything Else</span>
 		</td>
 	</tr>	</div>
-		
+
 </table>
 
 <!-- Lightbulb -->
 <!--
 <br /><br /><br /><br /><br />
-<a href="pages/black.html"><img width="160" height="180" src="images/lightbulb.png" alt="Everything Else"></a> 
+<a href="pages/black.html"><img width="160" height="180" src="images/lightbulb.png" alt="Everything Else"></a>
 -->
 
 </script>
