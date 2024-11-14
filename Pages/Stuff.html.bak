@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--Social-->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../CSS/Pages.css">
+    <link rel="shortcut icon" href="../Images/icons/social.ico">
+    <title>Social</title>
+</head>
+
+<body>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br />
+    <!--Websites-->
+    <div class="center">
+        </br>
+        </br>
+        <table class="tableformat">
+            <tr>
+                <td><a href="../index.html"><img width="150" height="150" src="../Images/Arrow.png" alt="arrow"></a></td>
+                <td><a href="http://www.facebook.com"><img width="120" height="120" src="../Images/Facebook.png" alt="Facebook"></a></td>
+                <td><a href="http://www.tiktok.com"><img width="120" height="120" src="../Images/Tiktok.png" alt="youtube"></a></td>
+				<td><a href="https://bsky.app"><img width="120" height="120" src="../Images/Bluesky.png" alt="youtube"></a></td>
+                <td><a href="http://www.tumblr.com"><img width="120" height="120" src="../Images/Tumblr.png" alt="youtube"></a></td>
+                <td><a href="http://www.youtube.com"><img width="120" height="120" src="../Images/Youtube.png" alt="youtube"></a></td>
+                <td><a href="http://www.reddit.com"><img width="130" height="130" src="../Images/Reddit.png" alt="youtube"></a></td>
+                <td><a href="http://www.twitter.com"><img width="130" height="130" src="../Images/Twitter.png" alt="youtube"></a></td>
+                <td><a href="http://www.instagram.com"><img width="120" height="120" src="../Images/Instagram.png" alt="youtube"></a></td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
